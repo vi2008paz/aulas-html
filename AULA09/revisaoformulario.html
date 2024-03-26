@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="#"></form> 
+    <fieldset>  
+        <legend>Dados do Curso</legend>
+      <!-- input - entrada de informação do usário-->
+        <Iabel for="cx1">Nome:</Iabel>
+        <input type="text" id="cx1">
+    <br><br>
+        <Iabel for="email">E-mail:</Iabel>
+        <input type="text" name="" id="email">
+    <br><br>
+        <Iabel for="endereco">Endereço:</Iabel>
+        <input type="text" id="endereco" name="endereco">
+    </fieldset> 
+    <br><br>
+    <fieldset>
+        <legend>Informações do Curso</legend>
+        <label for="Unidades">Selecione Unidades:</label><br>
+        <select name="Unidades" id="ListasUnidades">
+        
+            <option value="Unidades">Unidades</option>
+            <option value="Santana">Santana</option>
+            <option value="Santo Amaro">Santo Amaro</option>
+            <option value="Diadema">Diadema</option>
+            <option value="Itaquera">Itaquera</option>
+        </select>
+    <br><br>
+        
+        <label for="Unidades">Selecione Unidades:</label><br>
+        <select name="Unidades" id="ListasUnidades">
+
+            <option value="Unidades">Unidades</option>
+            <option value="Santana">Santana</option>
+            <option value="Santo Amaro">Santo Amaro</option>
+            <option value="Diadema">Diadema</option>
+            <option value="Itaquera">Itaquera</option>
+        </fieldset>   
+        </select>
+    </fieldset>
+    <br><br>
+    <fieldset>
+       <legend>Onde voce mora</legend>
+       <input typ="text" list="cidade" autocompleta="on" name="listaCidade" placeholder="Digite sua cidade">
+       <datalist id="cidade">
+            <option value="Sao Paulo">Sao Paulo</option>
+            <option value="Campinas">Campinas</option>
+            <option value="Santo Andre">Santo Andre</option>
+            <option value="Juquitiba">Juquitiba</option>
+       </datalist>
+     <br><br>
+
+       <!--<input type="range" name="#" id="#">-->
+       <textarea name="avaliacao" id="avaliacao" cols="30" rows="10"placeholder="Deixe aqui seu comentário" maxlength="100"></textarea>
+    </fieldset>
+    <br><br>
+
+        
+    <input type="submit" volue="Enviar">
+        
+    </form>
+</body>
+</html>
